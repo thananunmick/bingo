@@ -1,25 +1,144 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+function Square(props) {
+    // constructor(props) {
+    //     super(props);
+    //     this.state = {
+    //         value: null,
+    //     };
+    // }
 
+    return (
+        <button className="square" onClick={props.onClick}>{props.value}</button>
+        );
+  }
+class App extends React.Component{
+  handleClick(i) {
+  }
+
+  renderSquare(i) {
+    return <Square 
+              onClick={() => this.handleClick(i)}/>;
+  }
+
+  render() {
+      return (
+        <div className="Whole">
+          <div className="board-row">
+            <div style={{borderStyle:"solid"}}>
+              <p>HELLO</p>
+              <input type="text" name="name" />
+            </div>
+            <div style={{borderStyle:"solid"}}>
+              <p>HELLO</p>
+              <input type="text" name="name" />
+            </div>
+            <div style={{borderStyle:"solid"}}>
+              <p>HELLO</p>
+              <input type="text" name="name" />
+            </div>
+            <div style={{borderStyle:"solid"}}>
+              <p>HELLO</p>
+              <input type="text" name="name" />
+            </div>
+            <div style={{borderStyle:"solid"}}>
+              <p>HELLO</p>
+              <input type="text" name="name" />
+            </div>
+          </div>
+          <div className="board-row">
+            <div style={{borderStyle:"solid"}}>
+              <p>HELLO</p>
+              <input type="text" name="name" />
+            </div>
+            <div style={{borderStyle:"solid"}}>
+              <p>HELLO</p>
+              <input type="text" name="name" />
+            </div>
+            <div style={{borderStyle:"solid"}}>
+              <p>HELLO</p>
+              <input type="text" name="name" />
+            </div>
+            <div style={{borderStyle:"solid"}}>
+              <p>HELLO</p>
+              <input type="text" name="name" />
+            </div>
+            <div style={{borderStyle:"solid"}}>
+              <p>HELLO</p>
+              <input type="text" name="name" />
+            </div>
+          </div>
+          <div className="board-row">
+            <div style={{borderStyle:"solid"}}>
+              <p>HELLO</p>
+              <input type="text" name="name" />
+            </div>
+            <div style={{borderStyle:"solid"}}>
+              <p>HELLO</p>
+              <input type="text" name="name" />
+            </div>
+            <div style={{borderStyle:"solid"}}>
+              <p>HELLO</p>
+              <input type="text" name="name" />
+            </div>
+            <div style={{borderStyle:"solid"}}>
+              <p>HELLO</p>
+              <input type="text" name="name" />
+            </div>
+            <div style={{borderStyle:"solid"}}>
+              <p>HELLO</p>
+              <input type="text" name="name" />
+            </div>
+          </div>
+          <div className="board-row">
+            <div style={{borderStyle:"solid"}}>
+              <p>HELLO</p>
+              <input type="text" name="name" />
+            </div>
+            <div style={{borderStyle:"solid"}}>
+              <p>HELLO</p>
+              <input type="text" name="name" />
+            </div>
+            <div style={{borderStyle:"solid"}}>
+              <p>HELLO</p>
+              <input type="text" name="name" />
+            </div>
+            <div style={{borderStyle:"solid"}}>
+              <p>HELLO</p>
+              <input type="text" name="name" />
+            </div>
+            <div style={{borderStyle:"solid"}}>
+              <p>HELLO</p>
+              <input type="text" name="name" />
+            </div>
+          </div>
+          <div className="board-row">
+            <div style={{borderStyle:"solid"}}>
+              <p>HELLO</p>
+              <input type="text" name="name" />
+            </div>
+            <div style={{borderStyle:"solid"}}>
+              <p>HELLO</p>
+              <input type="text" name="name" />
+            </div>
+            <div style={{borderStyle:"solid"}}>
+              <p>HELLO</p>
+              <input type="text" name="name" />
+            </div>
+            <div style={{borderStyle:"solid"}}>
+              <p>HELLO</p>
+              <input type="text" name="name" />
+            </div>
+            <div style={{borderStyle:"solid"}}>
+              <p>HELLO</p>
+              <input type="text" name="name" />
+            </div>
+          </div>
+
+        </div>
+      );
+    }
+  }
 export default App;
