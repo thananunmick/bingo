@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/bingo/static/css/main.0548b08e.chunk.css",
-    "main.js": "/bingo/static/js/main.de5c394a.chunk.js",
-    "main.js.map": "/bingo/static/js/main.de5c394a.chunk.js.map",
+    "main.css": "/bingo/static/css/main.52cd65cc.chunk.css",
+    "main.js": "/bingo/static/js/main.64aea86a.chunk.js",
+    "main.js.map": "/bingo/static/js/main.64aea86a.chunk.js.map",
     "runtime-main.js": "/bingo/static/js/runtime-main.afda2409.js",
     "runtime-main.js.map": "/bingo/static/js/runtime-main.afda2409.js.map",
     "static/js/2.e575e54f.chunk.js": "/bingo/static/js/2.e575e54f.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.7c936739.chunk.js": "/bingo/static/js/3.7c936739.chunk.js",
     "static/js/3.7c936739.chunk.js.map": "/bingo/static/js/3.7c936739.chunk.js.map",
     "index.html": "/bingo/index.html",
-    "static/css/main.0548b08e.chunk.css.map": "/bingo/static/css/main.0548b08e.chunk.css.map",
+    "static/css/main.52cd65cc.chunk.css.map": "/bingo/static/css/main.52cd65cc.chunk.css.map",
     "static/js/2.e575e54f.chunk.js.LICENSE.txt": "/bingo/static/js/2.e575e54f.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/bingo/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.afda2409.js",
     "static/js/2.e575e54f.chunk.js",
-    "static/css/main.0548b08e.chunk.css",
-    "static/js/main.de5c394a.chunk.js"
+    "static/css/main.52cd65cc.chunk.css",
+    "static/js/main.64aea86a.chunk.js"
   ]
 }
